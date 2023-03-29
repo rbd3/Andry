@@ -107,10 +107,10 @@
   margin-top: 1px;
   gap: 8px;
   order: 3;
+  color: #505f79;
 }
 
 .twitter {
-  color: rgba(80, 95, 121, 1);
   height: 19.962478637695312px;
   width: 19.985925674438477px;
   opacity: 0.5;
@@ -119,7 +119,6 @@
 }
 
 .linkindin {
-  color: rgba(80, 95, 121, 1);
   height: 20.000062942504883px;
   width: 20.00014877319336px;
   left: 299px;
@@ -129,7 +128,6 @@
 }
 
 .github {
-  color: rgba(80, 95, 121, 1);
   height: 20px;
   width: 17.985200881958008px;
   left: 379px;
@@ -146,20 +144,10 @@
 }
 
 .angellist {
-  color: rgba(80, 95, 121, 1);
   height: 20px;
   width: 14.166671752929688px;
   left: 416px;
   top: 642px;
   border-radius: 10px;
-  opacity: 0.5;
-}
-
-.twitter:hover,
-.linkedin:hover,
-.github:hover,
-.medium:hover,
-.angel:hover {
-  color: #505f79;
   opacity: 0.5;
 }
