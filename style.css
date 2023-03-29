@@ -109,13 +109,21 @@
   order: 3;
 }
 
-.twitter {
+.twitter:hover,
+.linkedin:hover,
+.github:hover,
+.medium:hover,
+.angel:hover {
+  color: #505f79;
+  opacity: 0.5;
+}
+
+/*.twitter {
   height: 19.962478637695312px;
   width: 19.985925674438477px;
   opacity: 0.5;
   left: 260px;
   top: 642px;
-  color: #505f79;
 }
 
 .linkindin {
@@ -125,7 +133,6 @@
   top: 642px;
   border-radius: 10px;
   opacity: 0.5;
-  color: #505f79;
 }
 
 .github {
@@ -134,7 +141,6 @@
   left: 379px;
   top: 642px;
   opacity: 0.5;
-  color: #505f79;
 }
 
 .medium {
@@ -143,7 +149,6 @@
   left: 339px;
   top: 644px;
   opacity: 0.5;
-  color: #505f79;
 }
 
 .angellist {
@@ -153,5 +158,5 @@
   top: 642px;
   border-radius: 10px;
   opacity: 0.5;
-  color: #505f79;
 }
+*/
