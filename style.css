@@ -12,6 +12,14 @@
   align-items: center;
 }
 
+.humbourger {
+  height: 12px;
+  width: 18px;
+  left: 3px;
+  top: 6px;
+  color: rgba(96, 112, 255, 1);
+}
+
 .app-header {
   display: flex;
   justify-content: space-between;
@@ -102,31 +110,31 @@
 }
 
 .twitter {
-  color: rgba(80, 95, 121, 1);
   height: 19.962478637695312px;
   width: 19.985925674438477px;
   opacity: 0.5;
   left: 260px;
   top: 642px;
+  color: #505f79;
 }
 
 .linkindin {
-  color: rgba(80, 95, 121, 1);
   height: 20.000062942504883px;
   width: 20.00014877319336px;
   left: 299px;
   top: 642px;
   border-radius: 10px;
   opacity: 0.5;
+  color: #505f79;
 }
 
 .github {
-  color: rgba(80, 95, 121, 1);
   height: 20px;
   width: 17.985200881958008px;
   left: 379px;
   top: 642px;
   opacity: 0.5;
+  color: #505f79;
 }
 
 .medium {
@@ -135,25 +143,17 @@
   left: 339px;
   top: 644px;
   opacity: 0.5;
+  color: #505f79;
 }
 
 .angellist {
-  color: rgba(80, 95, 121, 1);
   height: 20px;
   width: 14.166671752929688px;
   left: 416px;
   top: 642px;
   border-radius: 10px;
   opacity: 0.5;
-}
-
-.twitter:hover,
-.linkedin:hover,
-.github:hover,
-.medium:hover,
-.angel:hover {
   color: #505f79;
-  opacity: 0.5;
 }
 
 /* - Work Section */
