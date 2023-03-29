@@ -109,50 +109,12 @@
     order: 3;
   }
   
-  .twitter {
-    height: 19.962478637695312px;
-    width: 19.985925674438477px;
-    opacity: 0.5;
-    left: 260px;
-    top: 642px;
+  .twitter:hover,
+  .linkedin:hover,
+  .github:hover,
+  .medium:hover,
+  .angel:hover {
     color: #505f79;
-  }
-  
-  .linkindin {
-    height: 20.000062942504883px;
-    width: 20.00014877319336px;
-    left: 299px;
-    top: 642px;
-    border-radius: 10px;
     opacity: 0.5;
-    color: #505f79;
-  }
-  
-  .github {
-    height: 20px;
-    width: 17.985200881958008px;
-    left: 379px;
-    top: 642px;
-    opacity: 0.5;
-    color: #505f79;
-  }
-  
-  .medium {
-    height: 16px;
-    width: 20px;
-    left: 339px;
-    top: 644px;
-    opacity: 0.5;
-    color: #505f79;
-  }
-  
-  .angellist {
-    height: 20px;
-    width: 14.166671752929688px;
-    left: 416px;
-    top: 642px;
-    border-radius: 10px;
-    opacity: 0.5;
-    color: #505f79;
   }
   
