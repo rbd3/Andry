@@ -12,14 +12,6 @@
   align-items: center;
 }
 
-.humbourger {
-  height: 12px;
-  width: 18px;
-  left: 3px;
-  top: 6px;
-  color: rgba(96, 112, 255, 1);
-}
-
 .app-header {
   display: flex;
   justify-content: space-between;
@@ -107,8 +99,6 @@
   margin-top: 1px;
   gap: 8px;
   order: 3;
-  /*color: #505F79;
-  background: #505F79;*/
 }
 
 .twitter {
@@ -117,7 +107,7 @@
   opacity: 0.5;
   left: 260px;
   top: 642px;
-  color: #505F79;
+  color:#505F79;
 }
 
 .linkindin {
@@ -127,7 +117,7 @@
   top: 642px;
   border-radius: 10px;
   opacity: 0.5;
-  color: #505F79;
+  color:#505F79;
 }
 
 .github {
@@ -136,7 +126,7 @@
   left: 379px;
   top: 642px;
   opacity: 0.5;
-  color: #505F79;
+  color:#505F79;
 }
 
 .medium {
@@ -145,7 +135,7 @@
   left: 339px;
   top: 644px;
   opacity: 0.5;
-  color: #505F79;
+  color:#505F79;
 }
 
 .angellist {
@@ -155,5 +145,5 @@
   top: 642px;
   border-radius: 10px;
   opacity: 0.5;
-  color: #505F79;
+  color:#505F79;
 }
