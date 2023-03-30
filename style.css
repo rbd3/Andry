@@ -306,7 +306,7 @@
 }
 
 .about-text {
-  display: flex;  
+  display: flex;
   height: 35px;
   width: 327px;
   font-family: "Poppins", sans-serif;
@@ -318,7 +318,7 @@
   align-items: center;
   flex: none;
   flex-grow: 0;
-  color:#172b4d;
+  color: #172b4d;
 }
 
 .sumarry {
@@ -450,7 +450,7 @@
   height: 248.15px;
 }
 
-.languages-list {
+.languages-list2 {
   display: flex;
   flex-direction: column;
   margin-top: -10px;
@@ -476,6 +476,7 @@
   margin-top: 8px;
   margin-left: 10px;
 }
+
 .js-text {
   display: flex;
   align-items: center;
