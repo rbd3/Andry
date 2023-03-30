@@ -118,12 +118,12 @@
   opacity: 0.5;
 }
 
-/* - Work Section */
+/* Work Section */
 .work {
   background: #e5e5e5;
   display: grid;
   grid-template-columns: 33.333%;
-  margin-top: 6rem;
+  margin-top: 2rem;
 }
 
 .card-container {
@@ -140,7 +140,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 6px;
+  margin: 10px;
 }
 
 .sary {
@@ -152,7 +152,7 @@
   flex-grow: 0;
 }
 
-.tittle {
+.card-tittle {
   width: 295px;
   height: 36px;
   margin-top: 0;
@@ -171,6 +171,16 @@
   width: 236px;
   height: 32px;
   padding: 0.5rem;
+  margin-top: 2px;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: -50px;
+}
+
+.frame2-img-sort {
+  width: 236px;
+  height: 32px;
+  padding: 0.5rem;
   margin-top: -30px;
   margin-bottom: 0;
   margin-right: 0;
@@ -186,9 +196,9 @@
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #344563;
   flex: none;
   flex-grow: 0;
+  color: #344563;
 }
 
 .languages-list {
@@ -274,7 +284,7 @@
   width: 127.04px;
   bottom: 10px;
   margin-left: -170px;
-  margin-top: 70px;
+  margin-top: 60px;
   padding: 0;
   gap: 10px;
   letter-spacing: 0.48px;
@@ -291,7 +301,7 @@
   color: #fff;
 }
 
-/* About me section */
+/* About myself section */
 .about-me {
   display: flex;
   flex-direction: column;
@@ -300,7 +310,7 @@
   border-bottom-left-radius: 60px;
   width: 370px;
   height: 1150px;
-  background: #fff;
+  background: #ffffff;
   gap: 12px;
   margin: 96px 6px 6px 6px;
 }
@@ -321,7 +331,7 @@
   color: #172b4d;
 }
 
-.sumarry {
+.summary {
   width: 327px;
   height: 144px;
   font-family: "Poppins", sans-serif;
@@ -330,7 +340,7 @@
   font-size: 16px;
   line-height: 24px;
   margin-top: -15px;
-  padding-top: 20px;
+  padding-top: 1px;
   flex: none;
   flex-grow: 0;
   color: #344563;
@@ -344,7 +354,7 @@
   font-style: normal;
   font-size: 16px;
   font-weight: 700;
-  margin-left: -95px;
+  margin-left: -80px;
   margin-right: 109px;
   padding-top: 10px;
   margin-top: -20px;
@@ -362,9 +372,9 @@
   flex-grow: 0;
   list-style: none;
   width: 10.636rem;
-  margin-left: -175px;
+  margin-left: -160px;
   margin-right: 30px;
-  margin-top: -5px;
+  margin-top: -10px;
   gap: 8px;
 }
 
@@ -392,7 +402,6 @@
   margin-top: 10px;
   padding: 12px;
   gap: 10px;
-  cursor: pointer;
   color: #396df2;
 }
 
@@ -466,7 +475,7 @@
   height: 66.72px;
   background: #f7f7f9;
   border-radius: 8px;
-  margin-left: 8px;
+  margin-left: 40px;
 }
 
 .js-logo {
@@ -500,7 +509,7 @@
   flex: none;
   flex-grow: 0;
   margin-top: 8px;
-  margin-left: 10px;
+  margin-left: 40px;
 }
 
 .html-logo {
@@ -532,7 +541,7 @@
   background: #f7f7f9;
   border-radius: 8px;
   margin-top: 8px;
-  margin-left: 10px;
+  margin-left: 40px;
   flex: none;
   flex-grow: 0;
 }
