@@ -110,10 +110,10 @@
 }
 
 .twitter:hover,
-.linkedin:hover,
+.linkindin:hover,
 .github:hover,
 .medium:hover,
-.angel:hover {
+.angellist:hover {
   color: #505f79;
   opacity: 0.5;
 }
