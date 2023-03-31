@@ -123,7 +123,7 @@
   background: #e5e5e5;
   display: grid;
   grid-template-columns: 33.333%;
-  margin-top: 2rem;
+  margin-top: 6rem;
 }
 
 .card-container {
@@ -140,7 +140,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 10px;
+  margin: 6px;
 }
 
 .sary {
@@ -150,6 +150,16 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+.sary1 {
+  width: 295px;
+  height: 220px;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: -25px;
 }
 
 .card-tittle {
@@ -168,16 +178,6 @@
 }
 
 .frame2-img {
-  width: 236px;
-  height: 32px;
-  padding: 0.5rem;
-  margin-top: 2px;
-  margin-bottom: 0;
-  margin-right: 0;
-  margin-left: -50px;
-}
-
-.frame2-img-sort {
   width: 236px;
   height: 32px;
   padding: 0.5rem;
@@ -211,7 +211,7 @@
   height: 20px;
   list-style: none;
   order: 2;
-  margin-top: -110px;
+  margin-top: -130px;
   margin-bottom: 0;
   margin-left: -90px;
   margin-right: 0;
@@ -284,7 +284,7 @@
   width: 127.04px;
   bottom: 10px;
   margin-left: -170px;
-  margin-top: 60px;
+  margin-top: 70px;
   padding: 0;
   gap: 10px;
   letter-spacing: 0.48px;
@@ -591,6 +591,12 @@
   color: #000;
 }
 
+.right-arrow {
+  margin-top: 3px;
+  margin-left: 275px;
+  color: #5e6c84;
+}
+
 .skills {
   width: 327px;
   height: 72px;
@@ -611,10 +617,4 @@
   font-size: 20px;
   line-height: 24px;
   color: #000;
-}
-
-.right-arrow2 {
-  margin-top: 3px;
-  margin-left: 275px;
-  color: #5e6c84;
 }
