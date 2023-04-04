@@ -206,9 +206,7 @@ body {
 }
 
 .languages-list {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  position: relative;
   padding: 0;
   gap: 8px;
   width: 203px;
@@ -222,8 +220,7 @@ body {
 }
 
 .html {
-  display: flex;
-  flex-direction: row;
+  float: left;
   align-items: center;
   padding: 4px 12px;
   width: 53px;
@@ -239,8 +236,7 @@ body {
 }
 
 .css {
-  display: flex;
-  flex-direction: row;
+  float: left;
   align-items: center;
   padding: 4px 12px;
   width: 45px;
@@ -256,11 +252,9 @@ body {
 }
 
 .javascript {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  float: right;
   padding: 4px 12px;
-  width: 89px;
+  width: 39px;
   height: 24px;
   background: #ebebff;
   color: #6070ff;
