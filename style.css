@@ -208,8 +208,6 @@ body {
 .languages-list {
   position: relative;
   padding: 0;
-  gap: 8px;
-  width: 203px;
   height: 20px;
   list-style: none;
   order: 2;
@@ -219,11 +217,9 @@ body {
   margin-right: 0;
 }
 
-.html {
+.languages-list li{
   float: left;
-  align-items: center;
   padding: 4px 12px;
-  width: 53px;
   height: 24px;
   background: #ebebff;
   color: #6070ff;
@@ -233,37 +229,7 @@ body {
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.48px;
-}
-
-.css {
-  float: left;
-  align-items: center;
-  padding: 4px 12px;
-  width: 45px;
-  height: 24px;
-  background: #ebebff;
-  color: #6070ff;
-  border-radius: 8px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-size: 12px;
-  font-weight: 500;
-  letter-spacing: 0.48px;
-}
-
-.javascript {
-  float: right;
-  padding: 4px 12px;
-  width: 39px;
-  height: 24px;
-  background: #ebebff;
-  color: #6070ff;
-  border-radius: 8px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-size: 12px;
-  font-weight: 500;
-  letter-spacing: 0.48px;
+  margin-right: 10px;
 }
 
 .buttons {
