@@ -630,12 +630,13 @@ body {
   align-items: center;
   height: 48rem;
   width: 375px;
-  left: 0;
   /*top: 410px;*/
-  border-radius: 20px;
-  background-image: url(media/contact\ form-\ background-shape-desktop.svg);
-  color:#6070FF;
+  border-top-left-radius: 60px;
+  background-image: url("media/header-shapes\ mobile@2x.svg");
+  background-size: cover;
+  background-color: #6070ff;
 }
+
 
 .contact-me {
 font-family: "Poppins", sans-serif;
@@ -649,6 +650,6 @@ font-style: Bold;
 font-size: 40px;
 line-height: 52px;
 line-height: 87%;
-align: Center;
-vertical-align: Center;
+padding-top: 109px;
 }
+
