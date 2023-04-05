@@ -622,3 +622,33 @@ body {
   line-height: 24px;
   color: #000;
 }
+
+/* contact me */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 48rem;
+  width: 375px;
+  left: 0;
+  /*top: 410px;*/
+  border-radius: 20px;
+  background-image: url(media/contact\ form-\ background-shape-desktop.svg);
+  color:#6070FF;
+}
+
+.contact-me {
+font-family: "Poppins", sans-serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: center;
+color: #fff;
+font-style: Bold;
+font-size: 40px;
+line-height: 52px;
+line-height: 87%;
+align: Center;
+vertical-align: Center;
+}
