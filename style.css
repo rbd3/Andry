@@ -630,7 +630,6 @@ body {
   align-items: center;
   height: 48rem;
   width: 375px;
-  /*top: 410px;*/
   border-top-left-radius: 60px;
   background-image: url("media/header-shapes\ mobile@2x.svg");
   background-size: cover;
@@ -684,18 +683,18 @@ body {
 
 
 .contact-me {
-font-family: "Poppins", sans-serif;
-font-size: 40px;
-font-weight: 700;
-line-height: 52px;
-letter-spacing: 0em;
-text-align: center;
-color: #fff;
-font-style: Bold;
-font-size: 40px;
-line-height: 52px;
-line-height: 87%;
-padding-top: 109px;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  font-style: Bold;
+  font-size: 40px;
+  line-height: 52px;
+  line-height: 87%;
+  padding-top: 109px;
 }
 
 .contact-text{
@@ -754,6 +753,3 @@ ul{
   margin-bottom: 20px;
   color: #172b4d;
 }
-
-
-
