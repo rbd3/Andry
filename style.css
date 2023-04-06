@@ -1050,4 +1050,45 @@ ul{
     margin-left: -37.3rem;
     margin-top: -0.5rem;
   }
+
+  .contact-form {
+    width: 100%;
+    background-image: url(media/contact-form-background.svg);
+  }
+
+  .contact-container {
+    width: 100%;
+  }
+
+  .contact-text {
+    width: 33%;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  #name {
+    width: 27rem;
+    border-radius: 0;
+  }
+
+  #email {
+    width: 27rem;
+    border-radius: 0;
+  }
+
+  .text {
+    width: 27rem;
+    border-radius: 0;
+  }
+
+  .contact-submit {
+    margin-left: 30%;
+    border: none;
+  }
+
+  .contact-submit:hover {
+    background-color: #2230d2;
+  }
 }
