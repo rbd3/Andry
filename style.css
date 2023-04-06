@@ -753,3 +753,150 @@ ul{
   margin-bottom: 20px;
   color: #172b4d;
 }
+
+/* Desktop version */
+
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .logo {
+    font-size: 25px;
+  font-weight: 700;
+  line-height: 20px;
+  }
+
+  .ambony {
+    width: auto;
+  }
+  
+  .humbourger {
+    display: none;
+  }
+
+  .menu {
+    display: flex !important;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .menu-item {
+    margin-right: 20px;
+  }
+
+  .menu-item a {
+    display: flex;
+    font-size: 1rem;
+    color: #344563;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+
+  }
+
+  .header-ambony {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 10%;
+    background-color: #fff;
+    background-image: url(media/Header\ bg.svg);
+    background-size: cover;
+    top: 2.875rem;
+    border-bottom-left-radius: 60px;
+    height: 44.88rem;
+  }
+
+  .narson {
+    width: 100%;
+  }
+
+  .detail {
+    height: 98px;
+    width: 920px;
+    left: 0;
+    top: 134px;
+  }
+
+  .connection {
+    margin-top: -1px; 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7f8cff;
+  }
+
+  /* work section */
+/*
+  .work {
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 86.5%;
+    margin: 10px 0 0 28px;
+    height: auto;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    margin-top: 100px;
+    height: 60vh;
+    width: 100%;
+  }
+
+  .sary1 {
+    width: 32rem;
+    height: 28rem;
+  }
+
+  .card-tittle {
+    margin-top: -15rem;
+    margin-left: -5.5rem;
+  }*/
+
+  .work {
+    margin-top: 10rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .card-container {
+    padding: 5%;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    margin-top: 100px;
+    height: 60vh;
+    width: 100%;
+  }
+
+  .sary {
+    width: 100%;
+    height: 220px;
+    border-radius: 8px;
+  }
+
+  .sary1 {
+    width: 100%;
+    height: 220px;
+    border-radius: 8px;
+  }
+
+}
