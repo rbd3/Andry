@@ -1061,7 +1061,10 @@ ul{
   }
 
   .contact-text {
-    width: 33%;
+    width: 35%;
+    height: 102px;
+    top: 68px;
+    margin-left: 380px;
   }
 
   form {
