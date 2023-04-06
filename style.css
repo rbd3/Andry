@@ -899,4 +899,155 @@ ul{
     border-radius: 8px;
   }
 
+
+  /* About section */
+
+  .about-me {
+    display: grid;
+    flex-direction: row;
+    width: 100%;
+    height: 90vh;
+  }
+
+  .about-text {
+    display: flex;
+    white-space: nowrap;
+    margin-left: 10%;
+    width: 100%;
+    margin-top: -2.9rem;
+  }
+
+  .summary {
+    margin-left: 10%;
+    width: 27.2rem;
+    height: 102px;
+    margin-top: -2rem;
+  }
+
+  .connection2 {
+    margin-left: 10%;
+    margin-top: 0.5rem;
+  }
+
+  .social2 {
+    margin-left: 7%;
+  }
+
+  .buttons2 {
+    margin-left: 10%;
+  }
+
+  .skill-list {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: right;
+    margin-left: 35rem;
+    margin-top: -45rem;
+  }
+
+  .down-arrow {
+    margin-left: 41rem;
+  }
+
+  .languages-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .languages-list2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+  }
+
+  .javascript2 {
+    display: flex;
+    flex-direction: column;
+    width: 7.5rem;
+    height: 8rem;
+  }
+
+  .js-logo {
+    height: 4.5rem;
+    width: 4.4rem;
+  }
+
+  .js-text {
+    align-self: center;
+    margin-top: 5.6rem;
+    margin-left: -1.5rem;
+  }
+
+  .html2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: -0.1rem;
+    width: 7.5rem;
+    height: 8rem;
+  }
+
+  .html-logo {
+    height: 4.5rem;
+    width: 4.4rem;
+  }
+
+  .html-text {
+    align-self: center;
+    margin-top: 5.8rem;
+    margin-left: -2.69rem;
+  }
+
+  .css2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.021rem;
+    width: 7.5rem;
+    height: 8rem;
+  }
+
+  .css-logo {
+    height: 4.5rem;
+    width: 4.4rem;
+  }
+
+  .css-text {
+    align-self: center;
+    margin-top: 5.5rem;
+    margin-left: -3.4rem;
+  }
+
+  .frameworks-text {
+    margin-left: 46.2rem;
+    margin-top: 6.2rem;
+  }
+
+  .right-arrow {
+    margin-left: 41rem;
+    margin-top: 6rem;
+    height: 14px;
+    width: 8px;
+    left: 9px;
+    top: 5px;
+  }
+
+  .separator-bottom {
+    margin-left: -29.5rem;
+    margin-top: 20px;
+    height: 1px;
+    width: 684px;
+    left: 0;
+    top: 71px;
+  }
+
+  .skills-text {
+    margin-left: 46.2rem;
+    margin-top: 9.7rem;
+  }
+
+  .separarot-bottom2 {
+    margin-left: -37.3rem;
+    margin-top: -0.5rem;
+  }
 }
