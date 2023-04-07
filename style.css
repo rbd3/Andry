@@ -778,8 +778,8 @@ ul {
     display: flex;
   }
   
-  
-  .humbourger,.ambony {
+  .humbourger,
+  .ambony {
     display: none;
   }
 
