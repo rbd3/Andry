@@ -648,7 +648,7 @@ body {
   background-color: #6070ff;
 }
 
-#text{
+#text {
   display: flex;
   height: 170px;
   width: 327px;
@@ -659,12 +659,11 @@ body {
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
   text-align: left;
   color: #172d4d;
 }
 
-#contact-submit{
+#contact-submit {
   height: 48px;
   width: 142px;
   left: 24px;
@@ -681,35 +680,32 @@ body {
   color: #6070ff;
 }
 
-#contact-submit:hover{
+#contact-submit:hover {
   background-color: #6070ff;
   font-size: 18px;
   color: #fff;
 }
 
-#contact-submit:active{
+#contact-submit:active {
   background-color: #2230d2;
   font-size: 18px;
   color: #fff;
 }
-
 
 .contact-me {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0em;
   text-align: center;
   color: #fff;
-  font-style: Bold;
+  font-style: bold;
   font-size: 40px;
   line-height: 52px;
-  line-height: 87%;
   padding-top: 109px;
 }
 
-.contact-text{
+.contact-text {
   width: 327px;
   left: 24px;
   font-family: "Poppins", sans-serif;
@@ -722,7 +718,7 @@ body {
   margin-top: -20px;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -733,23 +729,21 @@ ul{
   list-style: none;
 }
 
-#name{
+#name {
   display: flex;
   height: 48px;
   width: 327px;
   padding-left: 20px;
   border-radius: 8px;
   border: 1px solid #cfd8dc;
-  font-family: "Poppins", sans-serif;
   font-size: 17px;
   font-weight: 400;
   line-height: 20px;
-  letter-spacing: 0em;
   margin-bottom: 20px;
   color: #172b4d;
 }
 
-#email{
+#email {
   display: flex;
   height: 48px;
   width: 327px;
@@ -761,7 +755,6 @@ ul{
   font-size: 17px;
   font-weight: 400;
   line-height: 20px;
-  letter-spacing: 0em;
   margin-bottom: 20px;
   color: #172b4d;
 }
