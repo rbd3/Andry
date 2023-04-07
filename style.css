@@ -700,8 +700,6 @@ body {
   text-align: center;
   color: #fff;
   font-style: bold;
-  font-size: 40px;
-  line-height: 52px;
   padding-top: 109px;
 }
 
@@ -725,7 +723,7 @@ form {
   margin-left: -39px;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
@@ -794,7 +792,6 @@ ul{
 
   .menu-item a {
     display: flex;
-    font-size: 1rem;
     color: #344563;
     text-decoration: none;
     font-family: "Poppins", sans-serif;
@@ -803,7 +800,6 @@ ul{
     font-size: 20px;
     line-height: 20px;
     text-align: center;
-
   }
 
   .header-ambony {
@@ -843,7 +839,6 @@ ul{
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0em;
     text-align: left;
     color: #7f8cff;
   }
@@ -870,9 +865,7 @@ ul{
     margin-top: 100px;
     height: 60vh;
     width: 100%;
-    height: 496px;
     border-radius: 24px;
-
   }
 
   .card-container img {
@@ -920,7 +913,6 @@ ul{
     margin-left: -5.4rem;
   }
 
-
   /* About section */
 
   .about-me {
@@ -956,7 +948,6 @@ ul{
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-
   }
 
   .connection2 {
@@ -1125,7 +1116,6 @@ ul{
     margin-left: 25%;
     width: 32%;
     height: 60px;
-
   }
 
   #contact-submit:hover {
