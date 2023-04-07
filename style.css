@@ -776,10 +776,12 @@ ul {
   .app-header {
     display: flex;
   }
-  
+
+
   .humbourger {
     display: none;
   }
+
   
   .ambony {
     display: none;
@@ -1125,5 +1127,4 @@ ul {
   #contact-submit:hover {
     background-color: #2230d2;
   }
-
 }
