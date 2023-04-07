@@ -607,6 +607,12 @@ body {
   color: #5e6c84;
 }
 
+.right-arrow2 {
+  margin-top: 3px;
+  margin-left: 275px;
+  color: #5e6c84;
+}
+
 .skills {
   width: 327px;
   height: 72px;
@@ -921,10 +927,6 @@ ul{
     margin-left: -5.4rem;
   }
 
-  .sary1 {
-    order: 2;
-  }
-
 
   /* About section */
 
@@ -1064,16 +1066,18 @@ ul{
   }
 
   .right-arrow {
-    margin-left: 40rem;
+    margin-left: -2rem;
+    margin-top: 6.4rem;
+  }
+
+  .right-arrow2 {
+    margin-left: -5.2rem;
+    margin-top: 11rem;
   }
 
   .separator-bottom {
     margin-left: -32rem;
-    margin-top: 105px;
-    height: 10px;
-    width: 684px;
-    left: 0;
-    top: 71px;
+    margin-top: -1px;
   }
 
   .skills-text {
@@ -1082,12 +1086,15 @@ ul{
   }
 
   .separarot-bottom2 {
-    margin-left: -55.5rem;
-    margin-top: 10rem;
+    margin-left: -35.5rem;
+    margin-top: -1rem;
   }
+
+  /* contact section */
 
   .contact-form {
     width: 100%;
+    background-size: cover;
     background-image: url(media/contact-form-background.svg);
   }
 
@@ -1102,7 +1109,7 @@ ul{
     margin-left: 380px;
   }
 
-  form {
+  .contact-list {
     width: 100%;
   }
 
@@ -1116,17 +1123,19 @@ ul{
     border-radius: 0;
   }
 
-  .text {
+  #text {
     width: 27rem;
     border-radius: 0;
   }
 
-  .contact-submit {
-    margin-left: 30%;
-    border: none;
+  #contact-submit {
+    margin-left: 25%;
+    width: 32%;
+    height: 60px;
+
   }
 
-  .contact-submit:hover {
+  #contact-submit:hover {
     background-color: #2230d2;
   }
 }
