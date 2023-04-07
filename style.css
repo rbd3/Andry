@@ -778,10 +778,12 @@ ul {
     display: flex;
   }
   
-  .humbourger,
-  .ambony {
+  .humbourger {
     display: none;
   }
+  
+  .ambony {
+    display: none;
 
   .menu {
     display: flex !important;
