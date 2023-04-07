@@ -766,15 +766,15 @@ ul{
 
   .logo {
     font-size: 25px;
-  font-weight: 700;
-  line-height: 20px;
+    font-weight: 700;
+    line-height: 20px;
   }
 
-  .ambony {
-    width: auto;
+  .app-header {
+    display: flex;
   }
   
-  .humbourger {
+  .humbourger .ambony {
     display: none;
   }
 
@@ -783,10 +783,7 @@ ul{
     justify-content: flex-end;
     align-items: center;
     margin-right: 20px;
-  }
-  
-  .menu-item {
-    margin-right: 20px;
+    gap: 15%;
   }
 
   .menu-item a {
@@ -799,7 +796,6 @@ ul{
     font-weight: 500;
     font-size: 20px;
     line-height: 20px;
-    letter-spacing: 0em;
     text-align: center;
 
   }
@@ -816,6 +812,13 @@ ul{
     top: 2.875rem;
     border-bottom-left-radius: 60px;
     height: 44.88rem;
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 10%;
   }
 
   .narson {
@@ -840,7 +843,7 @@ ul{
   }
 
   /* work section */
-/*
+
   .work {
     display: grid;
     display: flex;
@@ -862,41 +865,48 @@ ul{
     width: 100%;
   }
 
-  .sary1 {
+  .sary1 .sary {
     width: 32rem;
     height: 28rem;
+  }
+
+  .work-fonony {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 2%;
+    margin-left: 10%;
+    width: 100%;
+    margin-top: 5rem;
   }
 
   .card-tittle {
     margin-top: -15rem;
     margin-left: -5.5rem;
-  }*/
-
-  .work {
-    margin-top: 10rem;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
   }
 
-  .card-container {
-    padding: 5%;
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    margin-top: 100px;
-    height: 60vh;
-    width: 100%;
+  .frame2-img {
+    margin-top: -1rem;
+    margin-left: -5.7rem;
   }
 
-  .sary {
-    width: 100%;
-    height: 220px;
-    border-radius: 8px;
+  .description {
+    margin-top: -0.25rem;
+    width: 85%;
+    margin-left: -5.3rem;
+  }
+
+  .languages-list {
+    margin-left: -5.3rem;
+    margin-top: -8.5rem;
+  }
+
+  .buttons {
+    margin-left: -5.4rem;
   }
 
   .sary1 {
-    width: 100%;
-    height: 220px;
-    border-radius: 8px;
+    order: 2;
   }
 
 
