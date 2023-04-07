@@ -783,6 +783,7 @@ ul {
   
   .ambony {
     display: none;
+  }
 
   .menu {
     display: flex !important;
@@ -1117,11 +1118,12 @@ ul {
   #contact-submit {
     margin-left: 25%;
     width: 32%;
-    height: 60px;
+    height: 50px;
+    margin-top: -10px;
   }
 
   #contact-submit:hover {
     background-color: #2230d2;
   }
-    
+
 }
