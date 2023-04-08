@@ -2,15 +2,29 @@
 
 body {
   margin: 0;
+  background-color: #e5e5e5;
 }
 
 * {
   font-family: "Poppins", sans-serif;
 }
 
+header {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 48px;
+  margin-left: 6px;
+  margin-top: -7px;
+  gap: 38%;
+  position: fixed;
+}
+
 .logo {
   display: flex;
-  font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -60,7 +74,6 @@ body {
 
 .narson {
   display: flex;
-  font-family: Poppins, sans-serif;
   font-size: 48px;
   font-weight: 700;
   line-height: 60px;
@@ -75,9 +88,9 @@ body {
 }
 
 .detail {
-  font-family: Poppins, sans-serif;
   font-size: 20px;
   font-weight: 400;
+  font-style: normal;
   line-height: 28px;
   text-align: left;
   color: rgba(52, 69, 99, 1);
@@ -91,7 +104,6 @@ body {
   display: flex;
   box-sizing: border-box;
   flex-wrap: wrap;
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   text-decoration: none;
   font-size: 16px;
@@ -160,16 +172,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
-}
-
-.sary1 {
-  width: 295px;
-  height: 220px;
-  border-radius: 8px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin-left: -25px;
+  margin-left: -20px;
 }
 
 .card-tittle {
@@ -191,17 +194,16 @@ body {
   width: 236px;
   height: 32px;
   padding: 0.5rem;
-  margin-top: -30px;
+  margin-top: -0.9px;
   margin-bottom: 0;
   margin-right: 0;
-  margin-left: -50px;
+  margin-left: -0.2px;
 }
 
 .description {
   width: 295px;
   height: 50px;
   margin-top: 0;
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -221,9 +223,9 @@ body {
   height: 20px;
   list-style: none;
   order: 2;
-  margin-top: -130px;
+  margin-top: 3rem;
   margin-bottom: 0;
-  margin-left: -90px;
+  margin-left: -0.01rem;
   margin-right: 0;
 }
 
@@ -237,7 +239,6 @@ body {
   background: #ebebff;
   color: #6070ff;
   border-radius: 8px;
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 12px;
   font-weight: 500;
@@ -254,7 +255,6 @@ body {
   background: #ebebff;
   color: #6070ff;
   border-radius: 8px;
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 12px;
   font-weight: 500;
@@ -282,7 +282,6 @@ body {
   box-sizing: border-box;
   border: 1px solid #6070ff;
   background-color: #fff;
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 17px;
   font-weight: 500;
@@ -293,8 +292,8 @@ body {
   height: 48px;
   width: 127.04px;
   bottom: 10px;
-  margin-left: -170px;
-  margin-top: 70px;
+  margin-left: 0.2rem;
+  margin-top: 2rem;
   padding: 0;
   gap: 10px;
   letter-spacing: 0.48px;
@@ -329,7 +328,6 @@ body {
   display: flex;
   height: 35px;
   width: 327px;
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 40px;
   font-weight: 700;
@@ -344,7 +342,6 @@ body {
 .summary {
   width: 327px;
   height: 144px;
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -364,9 +361,9 @@ body {
   font-style: normal;
   font-size: 16px;
   font-weight: 700;
-  margin-left: -80px;
+  margin-left: 0.1rem;
   margin-right: 109px;
-  padding-top: 10px;
+  padding-top: 1.5rem;
   margin-top: -20px;
   line-height: 24px;
   flex-grow: 0;
@@ -382,9 +379,9 @@ body {
   flex-grow: 0;
   list-style: none;
   width: 10.636rem;
-  margin-left: -160px;
+  margin-left: -2.8rem;
   margin-right: 30px;
-  margin-top: -10px;
+  margin-top: 1rem;
   gap: 8px;
 }
 
@@ -392,7 +389,6 @@ body {
   display: flex;
   flex-direction: row;
   flex-grow: 0;
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 17px;
   font-weight: 500;
@@ -407,9 +403,9 @@ body {
   background-color: #fff;
   border-radius: 8px;
   bottom: 10px;
-  margin-left: -170px;
+  margin-left: 0.2rem;
   margin-right: -25px;
-  margin-top: 10px;
+  margin-top: 1.5rem;
   padding: 12px;
   gap: 10px;
   color: #396df2;
@@ -648,58 +644,20 @@ body {
   background-color: #6070ff;
 }
 
-#text {
+.contact-container {
   display: flex;
-  height: 170px;
-  width: 327px;
-  border-radius: 8px;
-  margin-bottom: 20px;
-  padding-left: 20px;
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-  color: #172d4d;
-}
-
-#contact-submit {
-  height: 48px;
-  width: 142px;
-  left: 24px;
-  top: 5317px;
-  border-radius: 8px;
-  border: 1px solid #cfd8dc;
-  padding: 12px 16px 12px 16px;
-  font-family: "Poppins", sans-serif;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  color: #6070ff;
-}
-
-#contact-submit:hover {
-  background-color: #6070ff;
-  font-size: 18px;
-  color: #fff;
-}
-
-#contact-submit:active {
-  background-color: #2230d2;
-  font-size: 18px;
-  color: #fff;
 }
 
 .contact-me {
-  font-family: "Poppins", sans-serif;
-  font-size: 40px;
+  height: 56px;
+  font-style: normal;
   font-weight: 700;
+  font-size: 40px;
   line-height: 52px;
-  text-align: center;
   color: #fff;
-  font-style: bold;
   padding-top: 109px;
 }
 
@@ -724,13 +682,14 @@ form {
 }
 
 ul {
-  list-style: none;
+  list-style-type: none;
 }
+
 
 #name {
   display: flex;
-  height: 48px;
-  width: 327px;
+  height: 40px;
+  width: 305px;
   padding-left: 20px;
   border-radius: 8px;
   border: 1px solid #cfd8dc;
@@ -743,19 +702,62 @@ ul {
 
 #email {
   display: flex;
-  height: 48px;
-  width: 327px;
+  height: 40px;
+  width: 305px;
   padding-left: 20px;
   border-radius: 8px;
   background: #fff;
   border: 1px solid #cfd8dc;
-  font-family: "Poppins", sans-serif;
   font-size: 17px;
   font-weight: 400;
   line-height: 20px;
   margin-bottom: 20px;
   color: #172b4d;
 }
+
+#text {
+  display: flex;
+  height: 160px;
+  width: 305px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #172d4d;
+}
+
+#contact-submit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 48px;
+  width: 150px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  padding: 12px 16px 12px 16px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  margin-top: -20px;
+}
+
+#contact-submit:hover {
+  background-color: #6070ff;
+  font-size: 18px;
+  color: #fff;
+}
+
+#contact-submit:active {
+  background-color: #2230d2;
+  font-size: 18px;
+  color: #fff;
+}
+
 
 /* Desktop version */
 @media screen and (min-width: 768px) {
@@ -777,20 +779,21 @@ ul {
     display: flex;
   }
 
-  .humbourger,
-  .ambony {
+  .humbourger {
     display: none;
   }
 
   .menu {
-    display: flex !important;
-    justify-content: flex-end;
+    display: flex;
     align-items: center;
-    margin-right: 20px;
-    gap: 15%;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
   }
 
-  .menu-item a {
+   .menu-item a {
     display: flex;
     color: #344563;
     text-decoration: none;
@@ -800,7 +803,7 @@ ul {
     font-size: 20px;
     line-height: 20px;
     text-align: center;
-  }
+  } 
 
   .header-ambony {
     display: flex;
