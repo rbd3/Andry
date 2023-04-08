@@ -259,8 +259,7 @@ ul.project-info li:not(:first-child)::before {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
-  color: #6B778C;
-
+  color: #6b778c;
 }
 
 .year {
@@ -909,11 +908,8 @@ ul {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
     line-height: 20px;
-    letter-spacing: 0em;
     text-align: center;
-
   }
 
   .header-ambony {
@@ -1032,19 +1028,15 @@ ul {
     font-weight: bold;
     flex-direction: row;
     align-items: center;
-    padding: 0;
     gap: 8px;
     order: 2;
   }
 
   ul.project-info li {
-    white-space: nowrap;
-  }
-
-  ul.project-info li {
     list-style-type: none;
-    position: relative; /* make the li element a positioned ancestor */
+    position: relative;
     padding-right: 5px;
+    white-space: nowrap;
   }
 
   ul.project-info li:not(:first-child)::before {
@@ -1068,8 +1060,7 @@ ul {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    color: #6B778C;
-
+    color: #6b778c;
   }
 
   .year {
@@ -1077,7 +1068,7 @@ ul {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    color: #6B778C;
+    color: #6b778C;
   }
 
   #fb-title {
@@ -1099,11 +1090,9 @@ ul {
     font-weight: bold;
     flex-direction: row;
     align-items: center;
-    padding: 0;
     gap: 8px;
     order: 2;
   }
-  
 
   #back-list {
     margin-left: -5.3rem;
@@ -1120,14 +1109,12 @@ ul {
     width: 100%;
     margin-left: -5.3rem;
   }
-  
     
   .description {
     margin-top: -2rem;
     width: 100%;
     margin-left: -5.3rem;
   }
-
 
   ul.languages-list li {
     white-space: nowrap;
@@ -1142,7 +1129,7 @@ ul {
     margin-left: -5.4rem;
     margin-top: 2rem;
     background: #4053fc;
-    color: #ffffff;    ;
+    color: #fff;
   }
 
   /* About section */
