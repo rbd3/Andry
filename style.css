@@ -142,7 +142,7 @@ header {
 
 /* Work Section */
 .work {
-  background: #e5e5e5;
+  background: #fff;
   display: grid;
   grid-template-columns: 33.333%;
   margin-top: 6rem;
@@ -973,7 +973,7 @@ ul {
     flex-direction: row;
     padding: 24px;
     gap: 46px;
-    background: #fff;
+    background-color: #fff;
     border: 1px solid #dfe1e6;
     margin-top: 100px;
     height: 60vh;
