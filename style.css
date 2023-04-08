@@ -1013,7 +1013,7 @@ ul {
     display: flex;
     align-items: center;
   }
-    
+
   .project-info {
     list-style: none;
     display: flex;
@@ -1075,6 +1075,7 @@ ul {
     margin-top: -15rem;
     margin-left: -5.5rem;
   }
+  
   #fb-info {
     list-style: none;
     display: flex;
@@ -1097,11 +1098,12 @@ ul {
     margin-left: -5.3rem;
     margin-top: -10.5rem;
   }
-  
+
   #fd-buttons {
     margin-left: -5.4rem;
     margin-top: 5rem;
   }
+
   #description-fb {
     margin-top: -2rem;
     width: 100%;
