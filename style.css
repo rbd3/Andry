@@ -875,6 +875,8 @@ ul {
     font-weight: 700;
     line-height: 20px;
     background-color: transparent;
+    transition: width 2s, height 2s, background-color 2s, rotate 2s;
+    rotate: 360deg;
   }
 
   .app-header {
@@ -1293,7 +1295,7 @@ ul {
     margin-top: -1rem;
   }
 
-  /* contact section */
+  /* contact section this not bel */
 
   .contact-form {
     width: 100%;
