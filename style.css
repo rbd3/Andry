@@ -685,7 +685,6 @@ ul {
   list-style-type: none;
 }
 
-
 #name {
   display: flex;
   height: 40px;
@@ -758,7 +757,6 @@ ul {
   color: #fff;
 }
 
-
 /* Desktop version */
 @media screen and (min-width: 768px) {
   body {
@@ -786,14 +784,13 @@ ul {
   .menu {
     display: flex;
     align-items: center;
-    align-items: center;
     text-align: center;
     font-size: 15px;
     font-weight: 500;
     line-height: 20px;
   }
 
-   .menu-item a {
+  .menu-item a {
     display: flex;
     color: #344563;
     text-decoration: none;
