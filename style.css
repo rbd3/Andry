@@ -1013,7 +1013,7 @@ ul {
     display: flex;
     align-items: center;
   }
-  
+    
   .project-info {
     list-style: none;
     display: flex;
@@ -1068,14 +1068,13 @@ ul {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    color: #6b778C;
+    color: #6b778c;
   }
 
   #fb-title {
     margin-top: -15rem;
     margin-left: -5.5rem;
   }
-  
   #fb-info {
     list-style: none;
     display: flex;
@@ -1103,13 +1102,12 @@ ul {
     margin-left: -5.4rem;
     margin-top: 5rem;
   }
-  
   #description-fb {
     margin-top: -2rem;
     width: 100%;
     margin-left: -5.3rem;
   }
-    
+
   .description {
     margin-top: -2rem;
     width: 100%;
