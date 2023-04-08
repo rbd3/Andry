@@ -172,7 +172,7 @@ header {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-left: -20px;
+  margin-left: -2rem;
 }
 
 .card-tittle {
@@ -200,6 +200,72 @@ header {
   margin-left: -0.2px;
 }
 
+
+.frame3-img {
+  display: flex;
+  align-items: center;
+}
+
+.project-info {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  order: 2;
+}
+
+ul.project-info li {
+  white-space: nowrap;
+}
+
+ul.project-info li {
+  list-style-type: none;
+  position: relative; /* make the li element a positioned ancestor */
+  padding-right: 20px;
+}
+
+ul.project-info li:not(:first-child)::before {
+  content: "\2022";
+  font-size: 40px;
+  position: absolute;
+  left: -1.5rem;
+  top: 0;
+}
+
+.fb {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #3b5998;
+}
+
+.full {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6B778C;
+
+}
+.year {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6B778C;
+}
+
 .description {
   width: 295px;
   height: 50px;
@@ -211,6 +277,10 @@ header {
   flex: none;
   flex-grow: 0;
   color: #344563;
+}
+
+ul.languages-list li {
+  white-space: nowrap;
 }
 
 .languages-list {
@@ -230,6 +300,22 @@ header {
 }
 
 .html {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  width: 53px;
+  height: 24px;
+  background: #ebebff;
+  color: #6070ff;
+  border-radius: 8px;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+}
+
+.ruby {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -826,7 +912,7 @@ ul {
     text-align: center;
 
   }
-  
+
   .header-ambony {
     display: flex;
     justify-content: center;
@@ -878,6 +964,7 @@ ul {
     width: 86.5%;
     margin: 10px 0 0 28px;
     height: auto;
+    background-color: #f4f5f7;
   }
 
   .card-container {
@@ -923,10 +1010,81 @@ ul {
     margin-left: -5.7rem;
   }
 
+  .frame3-img {
+    display: flex;
+    align-items: center;
+  }
+  
+  .project-info {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 16px;
+    margin-left: -5.5rem;
+    margin-top: -3rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 8px;
+    order: 2;
+  }
+
+  ul.project-info li {
+    white-space: nowrap;
+  }
+
+  ul.project-info li {
+    list-style-type: none;
+    position: relative; /* make the li element a positioned ancestor */
+    padding-right: 20px;
+  }
+
+  ul.project-info li:not(:first-child)::before {
+    content: "\2022";
+    font-size: 40px;
+    position: absolute;
+    left: -1.5rem;
+    top: 0;
+  }
+
+  .fb {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #3b5998;
+  }
+
+  .full {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #6B778C;
+
+  }
+  .year {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #6B778C;
+  }
+    
   .description {
-    margin-top: -0.25rem;
-    width: 85%;
+    margin-top: -2rem;
+    width: 100%;
     margin-left: -5.3rem;
+  }
+
+
+  ul.languages-list li {
+    white-space: nowrap;
   }
 
   .languages-list {
@@ -936,6 +1094,9 @@ ul {
 
   .buttons {
     margin-left: -5.4rem;
+    margin-top: 5rem;
+    background: #4053FC;
+    color: #ffffff;    ;
   }
 
   /* About section */
