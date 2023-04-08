@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  background-color: #fff;
+  background-color: #e5e5e5;
 }
 
 * {
@@ -142,10 +142,10 @@ header {
 
 /* Work Section */
 .work {
-  background: #fff;
+  background-color: #e5e5e5;
   display: grid;
   grid-template-columns: 33.333%;
-  margin-top: 6rem;
+  margin-top: 5%;
 }
 
 .card-container {
@@ -426,6 +426,7 @@ ul.languages-list li {
   background: #fff;
   gap: 12px;
   margin: 96px 6px 6px 6px;
+  margin-top: 5%;
 }
 
 .about-text {
@@ -746,6 +747,7 @@ ul.languages-list li {
   background-image: url("media/header-shapes\ mobile@2x.svg");
   background-size: cover;
   background-color: #6070ff;
+  margin-top: 5%;
 }
 
 .contact-container {
@@ -868,7 +870,7 @@ ul {
     padding: 0;
     width: 100%;
     overflow-x: hidden;
-    background-color: #fff;
+    background-color: #e5e5e5;
   }
 
   .logo {
@@ -959,22 +961,22 @@ ul {
   /* work section */
 
   .work {
-    display: grid;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 86.5%;
+    width: 100%;
     margin: 10px 0 0 28px;
-    height: auto;
-    background-color: #fff;
+    margin-top: 5%;
+    border-radius: 8px;
+    background-color: #e5e5e5;
   }
 
   .card-container {
     display: flex;
+    float: left;
     flex-direction: row;
     padding: 24px;
     gap: 46px;
-    background-color: #fff;
     border: 1px solid #dfe1e6;
     margin-top: 100px;
     height: 60vh;
@@ -1020,17 +1022,15 @@ ul {
   .project-info {
     list-style: none;
     display: flex;
-    justify-content: space-between;
-    padding: 0;
+    justify-content: space-evenly;
     margin: 0;
-    width: 100%;
+    width: 60%;
     font-size: 16px;
-    margin-left: -5.5rem;
+    margin-left: -8.5rem;
     margin-top: -3rem;
     margin-bottom: 1rem;
     font-weight: bold;
     flex-direction: row;
-    align-items: center;
     gap: 8px;
     order: 2;
   }
@@ -1038,7 +1038,6 @@ ul {
   ul.project-info li {
     list-style-type: none;
     position: relative;
-    padding-right: 5px;
     white-space: nowrap;
   }
 
@@ -1046,8 +1045,6 @@ ul {
     content: "\2022";
     font-size: 40px;
     position: absolute;
-    left: -3rem;
-    top: 0;
   }
 
   .fb {
@@ -1082,17 +1079,15 @@ ul {
   #fb-info {
     list-style: none;
     display: flex;
-    justify-content: space-between;
-    padding: 0;
+    justify-content: space-evenly;
     margin: 0;
-    width: 100%;
+    width: 60%;
     font-size: 16px;
-    margin-left: -5.5rem;
+    margin-left: -8.5rem;
     margin-top: -3rem;
     margin-bottom: 1rem;
     font-weight: bold;
     flex-direction: row;
-    align-items: center;
     gap: 8px;
     order: 2;
   }
@@ -1109,13 +1104,14 @@ ul {
 
   #description-fb {
     margin-top: -2rem;
-    width: 100%;
+    width: 66%;
     margin-left: -5.3rem;
   }
 
   .description {
+    display: flex;
     margin-top: -2rem;
-    width: 100%;
+    width: 66%;
     margin-left: -5.3rem;
   }
 
@@ -1138,18 +1134,21 @@ ul {
   /* About section */
 
   .about-me {
-    display: grid;
+    display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
     width: 100%;
-    height: 90vh;
+    height: 60vh;
     padding: 56px 14px 0 16px;
+    margin-left: 3rem;
   }
 
   .about-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: -2rem;
+    margin-top: -6%;
   }
 
   .about-text {
@@ -1161,10 +1160,11 @@ ul {
   }
 
   .summary {
+    display: flex;
     margin-left: 10%;
     width: 27.2rem;
     height: 102px;
-    margin-top: -2rem;
+    margin-top: 0.5rem;
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -1191,7 +1191,7 @@ ul {
     width: 50%;
     float: right;
     margin-left: 35rem;
-    margin-top: -45rem;
+    margin-top: -19rem;
   }
 
   .down-arrow {
@@ -1207,7 +1207,9 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: -3rem;
     padding-bottom: 3rem;
+    margin-top: -5rem;
   }
 
   .javascript2 {
@@ -1267,11 +1269,15 @@ ul {
   }
 
   .frameworks-text {
-    margin-left: 66.2rem;
-    margin-top: 6.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 77rem;
+    margin-top: 5rem;
   }
 
   .right-arrow {
+    display: flex;
     margin-left: -2rem;
     margin-top: 6.4rem;
   }
@@ -1287,7 +1293,10 @@ ul {
   }
 
   .skills-text {
-    margin-left: 66.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 72rem;
     margin-top: 9.7rem;
   }
 
