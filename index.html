@@ -11,17 +11,29 @@
 
     <header class="app-header">
         <a href="#" class="logo">Narson</a>
+
+        
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn">&times;</a>
+            <div class="overlay-content">
+                <a id="portfolio" href="#work">Portfolio</a>
+                <a id="about" href="#about">About</a>
+                <a id="contact" href="#contact">Contact</a>
+            </div>
+        </div>
+
         <nav class="ambony">
             <a href="#"><img src="media/Union.svg" alt="humburger" class="humburger"></a>
             <ul class="menu">
                 <li class="menu-item"><a href="#">Portfolio</a></li>
-                <li class="menu"><a href="#">About</a></li>
-                <li class="menu"><a href="#">Contact</a></li>
+                <li class="menu-item"><a href="#">About</a></li>
+                <li class="menu-item"><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <section class="header-ambony">
+        <div class="header-container">
         <h1 class="narson">I'm Narson.
             <br>Glad to see you!
         </h1>
@@ -59,15 +71,24 @@
                 </a>
             </li>
         </ul>
-
+    </div>
     </section>
 
-    <section class="work">
+    <!--work section-->
+
+    <section class="work" id="#work">
         <div class="card-container">
-            <img class="sary1" src="media/Snapshoot Portfolio2.svg" alt="Project Snapshoot" />
+            <img class="sary" src="media/Snapshoo-desktop.svg" alt="Project Snapshoot" />
+            
+            <div class="work-fonony">
+
             <h2 class="card-tittle">Tonic</h2>
-            <div class="frame2-img">
-                <img src="media/Frame 2.svg" />
+            <div class="frame3-img">
+                <ul class="project-info">
+                    <li class="fb">CANOPY</li>
+                    <li class="full">Back End Dev</li>
+                    <li class="year">2015</li>
+                </ul>
             </div>
             <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
             <ul class="languages-list">
@@ -76,13 +97,21 @@
                 <li class="javascript">javascript</li>
             </ul>
             <button type="button" class="buttons">See Project</button>
+            </div>
         </div>
     
         <div class="card-container">
-            <img  class="sary1" src="media/Snapshoot Portfolio.svg" alt="Project Snapshoot">
+            <img  class="sary faha2" src="media/Snapshoot Portfolio.svg" alt="Project Snapshoot">
+            
+            <div class="work-fonony">
+            
             <h2 class="card-tittle">Multi-Post Stories</h2>
-            <div class="frame2-img">
-                <img src="media/Frame 2.svg" />
+            <div class="frame3-img">
+                <ul class="project-info">
+                    <li class="fb">CANOPY</li>
+                    <li class="full">Back End Dev</li>
+                    <li class="year">2015</li>
+                </ul>
             </div>
             <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
             <ul class="languages-list">
@@ -91,28 +120,46 @@
                 <li class="javascript">javascript</li>
             </ul>
             <button type="button" class="buttons">See Project</button>
+            </div>
         </div>
     
         <div class="card-container">
-            <img  class="sary" src="media/Snapshoot Portfolio(2).png" alt="Project Snapshoot">
-            <h2 class="card-tittle">Tonic</h2>
-            <div class="frame2-img">
-                <img src="media/Frame 2.svg" />
+            <img  class="sary" src="media/Snapshoot Portfolio2.svg" alt="Project Snapshoot">
+            
+            <div class="work-fonony">
+            
+            <h2 id="fb-title" class="card-tittle">Facebook 360</h2>
+            <div class="frame3-img">
+                <ul id="fb-info" class="project-info">
+                    <li class="fb">FACEBOOK</li>
+                    <li class="full">Full Stack Dev</li>
+                    <li class="year">2015</li>
+                </ul>
             </div>
-            <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <ul class="languages-list">
+            <p id="description-fb" class="description">Exploring the future of media in Facebook's first Virtual Reality app; 
+                a place to discover and enjoy 360 photos and videos on Gear VR..</p>
+            <ul id="back-list" class="languages-list">
                 <li class="html">html</li>
+                <li class="ruby">Ruby on rails</li>
                 <li class="css">css</li>
                 <li class="javascript">javascript</li>
             </ul>
-            <button type="button" class="buttons">See Project</button>
+            <button type="button" class="buttons" id="fd-buttons">See Project</button>
+            </div>
         </div>
     
         <div class="card-container">
-            <img class="sary1" src="media/Snapshoot Portfolio3.svg" alt="Project Snapshoot" />
+            <img class="sary faha2" src="media/Snapshoot Portfolio3.svg" alt="Project Snapshoot" />
+            
+            <div class="work-fonony">
+
             <h2 class="card-tittle">Multi-Post Stories</h2>
-            <div class="frame2-img">
-                <img src="media/Frame 2.svg" />
+            <div class="frame3-img">
+                <ul class="project-info">
+                    <li class="fb">CANOPY</li>
+                    <li class="full">Back End Dev</li>
+                    <li class="year">2015</li>
+                </ul>
             </div>
             <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
             <ul class="languages-list">
@@ -121,10 +168,14 @@
                 <li class="javascript">javascript</li>
             </ul>
             <button type="button" class="buttons">See Project</button>
+            </div>
         </div>
     </section>
-    
-    <section class="about-me">
+
+    <!--About me section-->
+
+    <section class="about-me" id="#about">
+        <div class="about-container">
         <h3 class="about-text">About Myself</h3>
         <p class="summary">
             Hello I’m a software developer! I can help you build a product , feature or website. 
@@ -150,7 +201,6 @@
                 </a>
             </li>
             <li class="angellist"><a href="#">
-                </a>
                 <img src="media/angellist.svg" alt="Angellist" title="Angellist" />
                 </a>
             </li>
@@ -161,6 +211,7 @@
             </li>
         </ul>
         <button type="button" class="buttons2">Get my resume</button>
+        </div>
 
         <div class="skill-list">
             <p class="languages">Languages</p>
@@ -185,44 +236,45 @@
                 <ul class="frameworks">
                     <li class="frameworks-text">Frameworks</li>
                     <img class="right-arrow" src="media/Icon - Chevron - right.svg" alt="Right arrow" />
-                    <li class="separator-bottom">
-                        <img src="media/Separator Bottom.svg" alt="line separator horizontally" />
-                    </li>
+                    <img class="separator-bottom4" src="media/Separator Bottom.svg" alt="line separator horizontally" />
                 </ul>
                 <ul class="skills">
                     <li class="skills-text">Skills</li>
-                    <img class="right-arrow" src="media/Icon - Chevron - right.svg" alt="Right arrow" />
-                    <li class="separarot-bottom2">
-                        <img src="media/Separator Bottom.svg" alt="line separator horizontally" />
-                    </li>
+                    <img class="right-arrow2" src="media/Icon - Chevron - right.svg" alt="Right arrow" />
+                    <img class="separator-bottom" src="media/Separator Bottom.svg" alt="line separator horizontally" />
+                    
                 </ul>
             </div>
         </div>
     </section>
 
-    <section class="contact-form">
+    <!--CONTACT SECTION-->
+
+    <section class="contact-form" id="#contact">
+        <div class="contact-container">
             <h2 class="contact-me">Contact me</h2>
             <p class="contact-text">
                 If you have an application you are interested in developing,
                 a feature that you need built or a project that needs coding. 
                 I’d love to help with it!
             </p>
+        </div>
 
         <form action="https://formspree.io/f/meqwrnzl" method="post">
             <ul class="contact-list">
                 <li>
-                    <input type="text" name="name" id="name" placeholder="Full name" maxlength="30" required />
+                    <input type="text" id="name" name="name" placeholder="Full name" maxlength="30" required />
                 </li>
                 <li>
-                    <input type="email" name="email" id="email" placeholder="Email Adress" required />
+                    <input type="email" id="email" name="email" placeholder="Email Adress" required />
                 </li>
                 <li>
-                    <textarea name="text" rows="6" cols="40" id="text" placeholder="Write your message here..." maxlength="500" required></textarea>"
+                    <textarea rows="6" cols="40" id="text" name="message" placeholder="Write your message here..." maxlength="500" required></textarea>"
                 </li>
                 <button type="submit" id="contact-submit">Get in touch</button>
             </ul>
         </form>
     </section>
-    
+    <script src="script.js"></script>
 </body>
 </html>
